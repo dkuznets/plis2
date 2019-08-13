@@ -1,5 +1,5 @@
 Analysis & Synthesis report for solo
-Tue Aug 13 19:48:28 2019
+Tue Aug 13 19:57:54 2019
 Quartus II 64-Bit Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -55,15 +55,15 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +------------------------------------+------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Aug 13 19:48:27 2019    ;
+; Analysis & Synthesis Status        ; Successful - Tue Aug 13 19:57:54 2019    ;
 ; Quartus II 64-Bit Version          ; 9.0 Build 132 02/25/2009 SJ Full Version ;
 ; Revision Name                      ; solo                                     ;
 ; Top-level Entity Name              ; solo                                     ;
 ; Family                             ; Cyclone II                               ;
-; Total logic elements               ; 762                                      ;
-;     Total combinational functions  ; 672                                      ;
-;     Dedicated logic registers      ; 431                                      ;
-; Total registers                    ; 431                                      ;
+; Total logic elements               ; 763                                      ;
+;     Total combinational functions  ; 673                                      ;
+;     Dedicated logic registers      ; 430                                      ;
+; Total registers                    ; 430                                      ;
 ; Total pins                         ; 72                                       ;
 ; Total virtual pins                 ; 0                                        ;
 ; Total memory bits                  ; 105,472                                  ;
@@ -192,28 +192,28 @@ applicable agreement for further details.
 +---------------------------------------------+--------------------------------------------+
 ; Resource                                    ; Usage                                      ;
 +---------------------------------------------+--------------------------------------------+
-; Estimated Total logic elements              ; 762                                        ;
+; Estimated Total logic elements              ; 763                                        ;
 ;                                             ;                                            ;
-; Total combinational functions               ; 672                                        ;
+; Total combinational functions               ; 673                                        ;
 ; Logic element usage by number of LUT inputs ;                                            ;
-;     -- 4 input functions                    ; 237                                        ;
-;     -- 3 input functions                    ; 122                                        ;
-;     -- <=2 input functions                  ; 313                                        ;
+;     -- 4 input functions                    ; 232                                        ;
+;     -- 3 input functions                    ; 123                                        ;
+;     -- <=2 input functions                  ; 318                                        ;
 ;                                             ;                                            ;
 ; Logic elements by mode                      ;                                            ;
-;     -- normal mode                          ; 420                                        ;
+;     -- normal mode                          ; 421                                        ;
 ;     -- arithmetic mode                      ; 252                                        ;
 ;                                             ;                                            ;
-; Total registers                             ; 431                                        ;
-;     -- Dedicated logic registers            ; 431                                        ;
+; Total registers                             ; 430                                        ;
+;     -- Dedicated logic registers            ; 430                                        ;
 ;     -- I/O registers                        ; 0                                          ;
 ;                                             ;                                            ;
 ; I/O pins                                    ; 72                                         ;
 ; Total memory bits                           ; 105472                                     ;
 ; Total PLLs                                  ; 1                                          ;
 ; Maximum fan-out node                        ; pllgen:mypll|altpll:altpll_component|_clk0 ;
-; Maximum fan-out                             ; 449                                        ;
-; Total fan-out                               ; 4622                                       ;
+; Maximum fan-out                             ; 448                                        ;
+; Total fan-out                               ; 4613                                       ;
 ; Average fan-out                             ; 3.77                                       ;
 +---------------------------------------------+--------------------------------------------+
 
@@ -223,7 +223,7 @@ applicable agreement for further details.
 +----------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                         ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                            ; Library Name ;
 +----------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |solo                                              ; 672 (580)         ; 431 (361)    ; 105472      ; 0            ; 0       ; 0         ; 72   ; 0            ; |solo                                                                                                                                                                          ; work         ;
+; |solo                                              ; 673 (581)         ; 430 (360)    ; 105472      ; 0            ; 0       ; 0         ; 72   ; 0            ; |solo                                                                                                                                                                          ; work         ;
 ;    |fifotimer:myfifotimer|                         ; 43 (0)            ; 32 (0)       ; 31744       ; 0            ; 0       ; 0         ; 0    ; 0            ; |solo|fifotimer:myfifotimer                                                                                                                                                    ; work         ;
 ;       |scfifo:scfifo_component|                    ; 43 (0)            ; 32 (0)       ; 31744       ; 0            ; 0       ; 0         ; 0    ; 0            ; |solo|fifotimer:myfifotimer|scfifo:scfifo_component                                                                                                                            ; work         ;
 ;          |scfifo_8j71:auto_generated|              ; 43 (0)            ; 32 (0)       ; 31744       ; 0            ; 0       ; 0         ; 0    ; 0            ; |solo|fifotimer:myfifotimer|scfifo:scfifo_component|scfifo_8j71:auto_generated                                                                                                 ; work         ;
@@ -271,17 +271,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; rdram                                  ; Merged with resgetfiforam              ;
 ; rdfifo                                 ; Merged with resgetfifo                 ;
 ; sdvig[1..4]                            ; Merged with sdvig[0]                   ;
-; dlinatime[8]                           ; Merged with dlinatime[0]               ;
-; dlinatime[4,7,9..18]                   ; Merged with dlinatime[1]               ;
-; dlinatime[5..6]                        ; Merged with dlinatime[3]               ;
+; dlinatime[1..3,5..7,11..12,14..18]     ; Merged with dlinatime[0]               ;
+; dlinatime[8..10,13]                    ; Merged with dlinatime[4]               ;
 ; waitkadr                               ; Merged with kadrvi                     ;
 ; sdvigpsw[0]                            ; Stuck at GND due to stuck port data_in ;
-; dlinatime[1]                           ; Stuck at GND due to stuck port data_in ;
+; dlinatime[0]                           ; Stuck at GND due to stuck port data_in ;
 ; kodclocka[0]                           ; Merged with clocka                     ;
-; dlinatime[0]                           ; Stuck at VCC due to stuck port data_in ;
+; dlinatime[4]                           ; Stuck at VCC due to stuck port data_in ;
 ; sdvig[0]                               ; Stuck at GND due to stuck port data_in ;
-; dlinatime[2]                           ; Merged with dlinatime[3]               ;
-; Total Number of Removed Registers = 29 ;                                        ;
+; Total Number of Removed Registers = 30 ;                                        ;
 +----------------------------------------+----------------------------------------+
 
 
@@ -300,7 +298,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 431   ;
+; Total registers                              ; 430   ;
 ; Number of registers using Synchronous Clear  ; 146   ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 34    ;
@@ -315,17 +313,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |solo|dlinatime[0]         ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |solo|div9600[3]           ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |solo|div9600[12]          ;
 ; 3:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; Yes        ; |solo|sdvigpsw[28]         ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; Yes        ; |solo|timer[17]            ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; Yes        ; |solo|temptimer[23]        ;
-; 4:1                ; 19 bits   ; 38 LEs        ; 19 LEs               ; 19 LEs                 ; Yes        ; |solo|adrregADC[10]        ;
-; 5:1                ; 19 bits   ; 57 LEs        ; 19 LEs               ; 38 LEs                 ; Yes        ; |solo|kodclocka[15]        ;
-; 4:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |solo|linecount[4]         ;
-; 4:1                ; 28 bits   ; 56 LEs        ; 28 LEs               ; 28 LEs                 ; Yes        ; |solo|sdvig[10]            ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; Yes        ; |solo|timer[9]             ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; Yes        ; |solo|temptimer[4]         ;
+; 4:1                ; 19 bits   ; 38 LEs        ; 19 LEs               ; 19 LEs                 ; Yes        ; |solo|adrregADC[7]         ;
+; 5:1                ; 19 bits   ; 57 LEs        ; 19 LEs               ; 38 LEs                 ; Yes        ; |solo|kodclocka[6]         ;
+; 4:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |solo|linecount[8]         ;
+; 4:1                ; 28 bits   ; 56 LEs        ; 28 LEs               ; 28 LEs                 ; Yes        ; |solo|sdvig[9]             ;
 ; 5:1                ; 11 bits   ; 33 LEs        ; 11 LEs               ; 22 LEs                 ; Yes        ; |solo|cndata[0]            ;
-; 18:1               ; 3 bits    ; 36 LEs        ; 33 LEs               ; 3 LEs                  ; No         ; |solo|Selector5            ;
+; 18:1               ; 3 bits    ; 36 LEs        ; 33 LEs               ; 3 LEs                  ; No         ; |solo|Selector9            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
@@ -374,9 +371,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; line           ; 256                               ; Signed Integer  ;
 ; psw            ; 010000010010000000000000000000010 ; Unsigned Binary ;
 ; block          ; 30                                ; Signed Integer  ;
-; dlinay         ; 261                               ; Signed Integer  ;
-; dlinaImit      ; 361                               ; Signed Integer  ;
-; dlin           ; 183                               ; Signed Integer  ;
+; dlinay         ; 10000                             ; Signed Integer  ;
+; dlinaImit      ; 10000                             ; Signed Integer  ;
+; dlin           ; 25000                             ; Signed Integer  ;
 +----------------+-----------------------------------+-----------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -863,7 +860,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Tue Aug 13 19:48:23 2019
+    Info: Processing started: Tue Aug 13 19:57:50 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off solo -c solo
 Info: Found 1 design units, including 1 entities, in source file fifotimer.v
     Info: Found entity 1: fifotimer
@@ -1097,9 +1094,9 @@ Info: Implemented 889 device resources after synthesis - the final resource coun
 Info: Generated suppressed messages file D:/work/OLO/PLIS/plis2_fw/solo.map.smsg
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 72 warnings
     Info: Peak virtual memory: 4462 megabytes
-    Info: Processing ended: Tue Aug 13 19:48:28 2019
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Processing ended: Tue Aug 13 19:57:54 2019
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +------------------------------------------+

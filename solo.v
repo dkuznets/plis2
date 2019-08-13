@@ -5,12 +5,12 @@ parameter lineclk=320/2; //число пикселов в строке/2 число clk в строке - правил
 parameter line=256;//число линий в матрице - с этим работало
 parameter psw=33'b010000010010000000000000000000010; // слово состояния для сброса матрицы
 parameter block=300/10;// время блокирования xxx/10 ns повторного выстрела для записи в FIFO xxx должно быть больше 3 !!!
-parameter dlinay=261;// a?aiy eioaa?e?iaaiey i?e aeeiiie auaa??ea aac auno?aea 261-118+50 =
-parameter dlinaImit=361;
-parameter dlin=183;// iauee ei?ioeee ia?eia eioaa?e?iaaiea 
-//parameter dlinay=10000;// a?aiy eioaa?e?iaaiey i?e aeeiiie auaa??ea aac auno?aea 261-118+50 =
-//parameter dlinaImit=10000;// aey aeeiiie auaa??ee aey eaeea?iaee
-//parameter dlin=72000;// iauee ei?ioeee ia?eia eioaa?e?iaaiea 
+//parameter dlinay=261;// a?aiy eioaa?e?iaaiey i?e aeeiiie auaa??ea aac auno?aea 261-118+50 =
+//parameter dlinaImit=361;
+//parameter dlin=183;// iauee ei?ioeee ia?eia eioaa?e?iaaiea 
+parameter dlinay=10000;// a?aiy eioaa?e?iaaiey i?e aeeiiie auaa??ea aac auno?aea 261-118+50 =
+parameter dlinaImit=10000;// aey aeeiiie auaa??ee aey eaeea?iaee
+parameter dlin=25000;// iauee ei?ioeee ia?eia eioaa?e?iaaiea 
 //сигналы на матрицу 
 output mreset,mfield,mdata,mfsync,mlsync,mclock;
 reg mreset,mfield;

@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 11.279 ns
+Actual Time    : 12.294 ns
 From           : ingo
-To             : sdvig[7]
+To             : adrregADC[8]
 From Clock     : --
 To Clock       : a12mhz
 Failed Paths   : 0
@@ -15,19 +15,19 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 17.642 ns
-From           : vistrel
-To             : databus[1]
-From Clock     : a12mhz
+Actual Time    : 17.980 ns
+From           : getfifo
+To             : databus[5]
+From Clock     : bls0we
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 20.171 ns
-From           : adresbus[2]
-To             : databus[3]
+Actual Time    : 21.610 ns
+From           : adresbus[3]
+To             : databus[1]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,9 +35,9 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : -3.067 ns
-From           : databus[4]
-To             : RKSMEM[4]
+Actual Time    : -3.072 ns
+From           : databus[3]
+To             : RKSMEM[3]
 From Clock     : --
 To Clock       : bls0we
 Failed Paths   : 0
@@ -53,17 +53,17 @@ To Clock       : pllgen:mypll|altpll:altpll_component|_clk1
 Failed Paths   : 0
 
 Type           : Clock Setup: 'pllgen:mypll|altpll:altpll_component|_clk0'
-Slack          : 2.498 ns
+Slack          : 2.492 ns
 Required Time  : 96.01 MHz ( period = 10.416 ns )
-Actual Time    : 126.29 MHz ( period = 7.918 ns )
-From           : kodclocka[11]
+Actual Time    : 126.20 MHz ( period = 7.924 ns )
+From           : sdvig[14]
 To             : linecount[0]
 From Clock     : pllgen:mypll|altpll:altpll_component|_clk0
 To Clock       : pllgen:mypll|altpll:altpll_component|_clk0
 Failed Paths   : 0
 
 Type           : Clock Setup: 'bls0we'
-Slack          : 4.814 ns
+Slack          : 4.058 ns
 Required Time  : 160.00 MHz ( period = 6.250 ns )
 Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
 From           : RKSMEM[2]
