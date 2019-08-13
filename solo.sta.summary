@@ -1,0 +1,37 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'mypll|altpll_component|pll|clk[0]'
+Slack : 79.481
+TNS   : 0.000
+
+Type  : Slow Model Hold 'mypll|altpll_component|pll|clk[0]'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'mypll|altpll_component|pll|clk[0]'
+Slack : 40.424
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'a12mhz'
+Slack : 41.666
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mypll|altpll_component|pll|clk[0]'
+Slack : 81.967
+TNS   : 0.000
+
+Type  : Fast Model Hold 'mypll|altpll_component|pll|clk[0]'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'mypll|altpll_component|pll|clk[0]'
+Slack : 40.666
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'a12mhz'
+Slack : 41.666
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jul 29 10:55:31 2019
+Quartus II 64-Bit Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : solo
+Top-level Entity Name : solo
+Family : Cyclone II
+Total logic elements : 765
+    Total combinational functions : 675
+    Dedicated logic registers : 430
+Total registers : 430
+Total pins : 72
+Total virtual pins : 0
+Total memory bits : 105,472
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

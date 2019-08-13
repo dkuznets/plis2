@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="solo">
+		<CBX_INST_ENTRY INSTANCE_NAME="|solo|fifotimer:myfifotimer|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_8j71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|solo|myfiforam:fiforam|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_rj71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

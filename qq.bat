@@ -1,0 +1,1 @@
+copy solo.rbf d:\work\OLO\SOLO2_FW\HW_TESTS\PLIS_fw_test\plis2_fw.rbf /B /Y
