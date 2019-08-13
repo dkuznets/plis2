@@ -1,14 +1,14 @@
-Fitter Status : Successful - Tue Aug 13 19:48:32 2019
+Fitter Status : Successful - Tue Aug 13 20:09:05 2019
 Quartus II 64-Bit Version : 9.0 Build 132 02/25/2009 SJ Full Version
 Revision Name : solo
 Top-level Entity Name : solo
 Family : Cyclone II
 Device : EP2C5T144I8
 Timing Models : Final
-Total logic elements : 712 / 4,608 ( 15 % )
-    Total combinational functions : 678 / 4,608 ( 15 % )
-    Dedicated logic registers : 431 / 4,608 ( 9 % )
-Total registers : 431
+Total logic elements : 701 / 4,608 ( 15 % )
+    Total combinational functions : 680 / 4,608 ( 15 % )
+    Dedicated logic registers : 430 / 4,608 ( 9 % )
+Total registers : 430
 Total pins : 72 / 89 ( 81 % )
 Total virtual pins : 0
 Total memory bits : 105,472 / 119,808 ( 88 % )
