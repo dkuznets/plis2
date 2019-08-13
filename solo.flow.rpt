@@ -1,5 +1,5 @@
 Flow report for solo
-Mon Jul 29 10:55:38 2019
+Tue Aug 13 19:48:36 2019
 Quartus II 64-Bit Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +------------------------------------+------------------------------------------+
-; Flow Status                        ; Successful - Mon Jul 29 10:55:38 2019    ;
+; Flow Status                        ; Successful - Tue Aug 13 19:48:35 2019    ;
 ; Quartus II 64-Bit Version          ; 9.0 Build 132 02/25/2009 SJ Full Version ;
 ; Revision Name                      ; solo                                     ;
 ; Top-level Entity Name              ; solo                                     ;
@@ -46,10 +46,10 @@ applicable agreement for further details.
 ; Device                             ; EP2C5T144I8                              ;
 ; Timing Models                      ; Final                                    ;
 ; Met timing requirements            ; Yes                                      ;
-; Total logic elements               ; 702 / 4,608 ( 15 % )                     ;
-;     Total combinational functions  ; 681 / 4,608 ( 15 % )                     ;
-;     Dedicated logic registers      ; 430 / 4,608 ( 9 % )                      ;
-; Total registers                    ; 430                                      ;
+; Total logic elements               ; 712 / 4,608 ( 15 % )                     ;
+;     Total combinational functions  ; 678 / 4,608 ( 15 % )                     ;
+;     Dedicated logic registers      ; 431 / 4,608 ( 9 % )                      ;
+; Total registers                    ; 431                                      ;
 ; Total pins                         ; 72 / 89 ( 81 % )                         ;
 ; Total virtual pins                 ; 0                                        ;
 ; Total memory bits                  ; 105,472 / 119,808 ( 88 % )               ;
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/29/2019 10:55:28 ;
+; Start date & time ; 08/13/2019 19:48:24 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; solo                ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ applicable agreement for further details.
 +-----------------------------------------+------------------------------------+--------------------------------+-------------+----------------+
 ; Assignment Name                         ; Value                              ; Default Value                  ; Entity Name ; Section Id     ;
 +-----------------------------------------+------------------------------------+--------------------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                   ; 180649680395086.156438692816540    ; --                             ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                   ; 180649680395086.156571490321152    ; --                             ; --          ; --             ;
 ; FITTER_AUTO_EFFORT_DESIRED_SLACK_MARGIN ; 0 us                               ; 0 ns                           ; --          ; --             ;
 ; FIT_ONLY_ONE_ATTEMPT                    ; On                                 ; Off                            ; --          ; --             ;
 ; FMAX_REQUIREMENT                        ; 160 MHz                            ; --                             ; --          ; --             ;
@@ -113,11 +113,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 4462 MB             ; 00:00:03                           ;
-; Fitter                  ; 00:00:03     ; 1.4                     ; 4512 MB             ; 00:00:03                           ;
-; Assembler               ; 00:00:02     ; 1.0                     ; 4395 MB             ; 00:00:01                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 4384 MB             ; 00:00:00                           ;
-; Total                   ; 00:00:10     ; --                      ; --                  ; 00:00:07                           ;
+; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 4462 MB             ; 00:00:04                           ;
+; Fitter                  ; 00:00:04     ; 1.3                     ; 4512 MB             ; 00:00:04                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 4395 MB             ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 4384 MB             ; 00:00:00                           ;
+; Total                   ; 00:00:09     ; --                      ; --                  ; 00:00:09                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

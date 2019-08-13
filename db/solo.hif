@@ -4627,7 +4627,7 @@ ON
 # case_sensitive
 # source_file
 solo.v
-9876d5e31ffad066f8b1d4ec13ef2eff
+e421d94a16c4c0bfbab1fda0c611748
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -4663,15 +4663,15 @@ block
 PARAMETER_SIGNED_DEC
 DEF
 dlinay
-10000
+261
 PARAMETER_SIGNED_DEC
 DEF
 dlinaImit
-10000
+361
 PARAMETER_SIGNED_DEC
 DEF
 dlin
-72000
+183
 PARAMETER_SIGNED_DEC
 DEF
 }
